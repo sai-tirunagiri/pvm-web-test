@@ -1,0 +1,69 @@
+{
+    "ServerUrl": "http://*:8080",
+    "HealthChecks": {
+        "SharedFolders": {
+            "ExpectedSharedFolders": [
+                "wwwroot",
+                "ReportViewer",
+                "LogFiles",
+                "IIVT",
+                "IIVT_ACM_ADDIN",
+                "IISLogs",
+                "ICReports",
+                "Cfig_Applications"
+            ]
+        },
+      "WebApp": {
+            "ExpectedWebApps": [
+                "http://localhost"
+
+                /*
+                The remaining sites are commented out as due to authentication requirements, they provide no server health value:
+                    all will return 401 or 403 when invoked by the Healthcheck  process, even if the URL path is invalid
+
+                 "http://localhost/ACMService",
+                //"http://localhost/IIVT2", Can't load root IIVT2 site (throws Could not load file or assembly 'CS.AI.Core.BusinessLayer, Version=3.0.0.0, Culture=neutral, PublicKeyToken=ecd987c9426de45c' or one of its dependencies. The system cannot find the file specified.)
+                "http://localhost/IIVT2/ACM",
+                "http://localhost/CME",
+                "http://localhost/CME/CMERiaServices",
+                "http://localhost/CME/Silverlight",
+                "http://localhost/CRP",
+                "http://localhost/FCB",
+                "http://localhost/ITL",
+                "http://localhost/ITL/FCReports",
+                "http://localhost/IFC",
+                "http://localhost/IIVT",
+                "http://localhost/IIVT/C7",
+                "http://localhost/IIVT/Help",
+                "http://localhost/IIVT/IVTCore",
+                "http://localhost/IIVT/IVTFM",
+                "http://localhost/IIVT2/CCAD_CORE",
+                "http://localhost/IIVT2/Dilution",
+                "http://localhost/IIVT2/DTS",
+                "http://localhost/IIVT2/JEM_Core_Admin",
+                "http://localhost/IIVT2/ManageSourceMap",
+                "http://localhost/IIVT2/Memo",
+                "http://localhost/IIVT2/PCAPPortal",
+                "http://localhost/IIVT2/TemplateAdmin",
+                "http://localhost/IIVT2/UsersAllocation",
+                "http://localhost/IIVT2/JEMCore",
+                "http://localhost/ITL/IRR",
+                "http://localhost/ITL/PCAPPortal",
+                "http://localhost/PDI",
+                "http://localhost/PDI/MSS",
+                "http://localhost/PES",
+                "http://localhost/RDMRequestUnlock",
+                "http://localhost/WWFL2"
+                */
+            ],
+            "ExpectedResponseCodes": [
+                "200",
+                "401",
+                "403"
+            ]
+        },
+        "ChefLog": {
+            "LogFolder": "C:\\Chef\\Log"
+        }
+    }
+}

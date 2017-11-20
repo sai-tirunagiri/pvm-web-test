@@ -1,0 +1,30 @@
+{
+    "PrimaryDnsIp": "127.0.0.1",
+    "PrimaryZoneName": "env",
+    "ForwarderIp": "10.50.5.254",
+    "Cnames": {
+        "aw-pvm-dbprd01": "pvm-db01#{node['pvm-web']['EnvExtension']}.gcmlp.com",
+        "pvm-db01": "pvm-db01#{node['pvm-web']['EnvExtension']}.gcmlp.com",
+        "aw-pvm-dbprd02": "pvm-db02#{node['pvm-web']['EnvExtension']}.gcmlp.com",
+        "pvm-db02": "pvm-db02#{node['pvm-web']['EnvExtension']}.gcmlp.com",      
+        "aw-pvm-dbprd03": "pvm-db03#{node['pvm-web']['EnvExtension']}.gcmlp.com",
+        "pvm-db03": "pvm-db03#{node['pvm-web']['EnvExtension']}.gcmlp.com",
+        "aw-pvm-dbprd04": "pvm-db04#{node['pvm-web']['EnvExtension']}.gcmlp.com",
+        "pvm-db04": "pvm-db04#{node['pvm-web']['EnvExtension']}.gcmlp.com",        
+        "aw-pvm-dbprd05": " pvm-db05#{node['pvm-web']['EnvExtension']}.gcmlp.com",
+        "pvm-db05": " pvm-db05#{node['pvm-web']['EnvExtension']}.gcmlp.com",
+        "aw-pvm-webprd01": "pvm-web#{node['pvm-web']['EnvExtension']}.gcmlp.com",
+        "pvm-web": "pvm-web#{node['pvm-web']['EnvExtension']}.gcmlp.com",
+        "aw-pvm-appprd01": "pvm-app#{node['pvm-web']['EnvExtension']}.gcmlp.com",
+        "pvm-app": "pvm-app#{node['pvm-web']['EnvExtension']}.gcmlp.com",
+        "aw-pvm-cmeprd01": "pvm-cme#{node['pvm-web']['EnvExtension']}.gcmlp.com",
+        "pvm-cme": "pvm-cme#{node['pvm-web']['EnvExtension']}.gcmlp.com",
+        "aw-pvm-bztprd01": "pvm-biztalk#{node['pvm-web']['EnvExtension']}.gcmlp.com",
+        "pvm-biztalk": "pvm-biztalk#{node['pvm-web']['EnvExtension']}.gcmlp.com",
+        "pvm-bzt": "pvm-bzt#{node['pvm-web']['EnvExtension']}.gcmlp.com",
+        "aw-pvm-filprd01": "pvm-files#{node['pvm-web']['EnvExtension']}.gcmlp.com",
+        "pvm-files": "pvm-files#{node['pvm-web']['EnvExtension']}.gcmlp.com",
+        "aw-pvm-srsprd01": "pvm-iris#{node['pvm-web']['EnvExtension']}.gcmlp.com",
+        "pvm-ssrs": "pvm-iris#{node['pvm-web']['EnvExtension']}.gcmlp.com"
+    }
+}

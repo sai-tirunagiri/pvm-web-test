@@ -1,0 +1,11 @@
+{
+    "Resources": {
+        "AutoScalingGroup": {
+            "CreationPolicy": {
+                "ResourceSignal": {
+                    "Timeout": "PT10H"
+                }
+            }
+        }
+    }
+}

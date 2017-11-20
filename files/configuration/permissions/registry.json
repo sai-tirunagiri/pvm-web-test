@@ -1,0 +1,8 @@
+{
+  "HKLM:\\SYSTEM\\CurrentControlSet\\Services\\Eventlog": {
+    "Permissions": {
+      "BUILTIN\\IIS_IUSRS": "FullControl",
+      "GROSVENOR\\PvmSys_#{attributes['NonPrdOrPrd']}_DI": "FullControl"
+    }
+  }
+}

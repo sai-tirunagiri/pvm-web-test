@@ -1,0 +1,200 @@
+{  
+    "/ACMService": { //ACM-Web_Mainline, Deploy\ACMWebService
+      "Site": "Default Web Site",
+      "ApplicationPool": "ACM",
+      "PhysicalPath": "D:\\Cfig_Applications\\ACMService",
+      "EnabledProtocols": "http"      
+    },
+    "/IIVT2": {// EMPTY FOLDER!!!!!! No need to deploy!
+      "Site": "Default Web Site",
+      "ApplicationPool": "IIVT2",
+      "PhysicalPath": "D:\\Cfig_Applications\\IIVT2",
+      "EnabledProtocols": "http"
+    },
+    "/IIVT2/ACM": { //ACM-Web_Mainline, Deploy\ACMWeb
+      "Site": "Default Web Site",
+      "ApplicationPool": "ACM",
+      "PhysicalPath": "D:\\Cfig_Applications\\IIVT2_ACM",
+      "EnabledProtocols": "http"
+    },   
+    "/CME": { //CME_Mainline, Deploy\CMEWebSite
+      "Site": "Default Web Site",
+      "ApplicationPool": "CME_Silverlight",
+      "PhysicalPath": "D:\\Cfig_Applications\\CME_WebSite",
+      "EnabledProtocols": "http"
+    },   
+    "/CME/CMERiaServices": { //Manually Deployed
+      "Site": "Default Web Site",
+      "ApplicationPool": "CME_Silverlight",
+      "PhysicalPath": "D:\\Cfig_Applications\\CME_Silverlight",
+      "EnabledProtocols": "http"
+    },
+  "/CME/Silverlight": { //Manually Deployed
+    "Site": "Default Web Site",
+    "ApplicationPool": "CME_Silverlight",
+    "PhysicalPath": "D:\\Cfig_Applications\\CME_Silverlight",
+    "EnabledProtocols": "http"
+  }, 
+    "/CRP": { //CARE_Mainline,  Deploy\CRPWebUI
+      "Site": "Default Web Site",
+      "ApplicationPool": "CRP",
+      "PhysicalPath": "D:\\Cfig_Applications\\CRP",
+      "EnabledProtocols": "http"
+    }, 
+    "/FCB": {//FundCentral_Mainline, Deploy\FCB
+      "Site": "Default Web Site",
+      "ApplicationPool": "FCB",
+      "PhysicalPath": "D:\\Cfig_Applications\\FCB",
+      "EnabledProtocols": "http"
+    },                
+    "/ITL": {//FundCentral_Mainline, Deploy\ITL
+      "Site": "Default Web Site",
+      "ApplicationPool": "ITL",
+      "PhysicalPath": "D:\\Cfig_Applications\\ITL",
+      "EnabledProtocols": "http"
+    },     
+    "/ITL/FCReports": {//FundCentral_Mainline, Deploy\FCReports
+      "Site": "Default Web Site",
+      "ApplicationPool": "FCReports",
+      "PhysicalPath": "D:\\Cfig_Applications\\ITL_FCReports",
+      "EnabledProtocols": "http"
+    }, 
+    "/IFC": {//InvestorPortal_Mainline, Deploy\InvestorPortal
+      "Site": "Default Web Site",
+      "ApplicationPool": "IFC",
+      "PhysicalPath": "D:\\Cfig_Applications\\IFC",
+      "EnabledProtocols": "http"
+    },    
+    "/IIVT": {//FAMReporting_Mainline, Deploy\IVTReports
+      "Site": "Default Web Site",
+      "ApplicationPool": "IIVT",
+      "PhysicalPath": "D:\\Cfig_Applications\\IIVT",
+      "EnabledProtocols": "http"
+    },        
+    "/IIVT/C7": {//FAMReporting_Mainline, Deploy\IVTC7
+      "Site": "Default Web Site",
+      "ApplicationPool": "IIVT",
+      "PhysicalPath": "D:\\Cfig_Applications\\IIVT_C7",
+      "EnabledProtocols": "http"
+    },      
+    "/IIVT/Help": {//FAMReporting_Mainline, Deploy\IVTHelp
+      "Site": "Default Web Site",
+      "ApplicationPool": "IIVT",
+      "PhysicalPath": "D:\\Cfig_Applications\\IIVT_HELP",
+      "EnabledProtocols": "http"
+    },   
+    "/IIVT/IVTCore": {//FAMReporting_Mainline, Deploy\IVTCore
+      "Site": "Default Web Site",
+      "ApplicationPool": "IIVT",
+      "PhysicalPath": "D:\\Cfig_Applications\\IIVT_Core",
+      "EnabledProtocols": "http"
+    },   
+    "/IIVT/IVTFM": {//FAMReporting_Mainline, Deploy\IVTFM
+      "Site": "Default Web Site",
+      "ApplicationPool": "IIVT",
+      "PhysicalPath": "D:\\Cfig_Applications\\IIVT_Fm",
+      "EnabledProtocols": "http"
+    },   
+    "/IIVT2/CCAD_CORE": {//JEM_Mainline, Deploy\CCAD_CORE_Web
+      "Site": "Default Web Site",
+      "ApplicationPool": "IIVT2",
+      "PhysicalPath": "D:\\Cfig_Applications\\IIVT2_CCAD_CORE",
+      "EnabledProtocols": "http"
+    },     
+    "/IIVT2/Dilution": {//JEM_Mainline, Deploy\JEMDilution
+      "Site": "Default Web Site",
+      "ApplicationPool": "IIVT2",
+      "PhysicalPath": "D:\\Cfig_Applications\\IIVT2_Dilution",
+      "EnabledProtocols": "http"
+    },  
+    "/IIVT2/DTS": {//DTS_Mainline, Deploy\IVTDTS2
+      "Site": "Default Web Site",
+      "ApplicationPool": "IIVT2",
+      "PhysicalPath": "D:\\Cfig_Applications\\IIVT2_DTS",
+      "EnabledProtocols": "http"
+    },  
+    "/IIVT2/JEM_Core_Admin": {//JEM_Mainline, Deploy\JEMCoreAdminWeb
+      "Site": "Default Web Site",
+      "ApplicationPool": "IIVT2",
+      "PhysicalPath": "D:\\Cfig_Applications\\IIVT2_JEM_Core_Admin",
+      "EnabledProtocols": "http"
+    },  
+    "/IIVT2/ManageSourceMap": {//DTS_Mainline, Deploy\ManageSourceMap
+      "Site": "Default Web Site",
+      "ApplicationPool": "IIVT2",
+      "PhysicalPath": "D:\\Cfig_Applications\\IIVT2_managesourcemap",
+      "EnabledProtocols": "http"
+    },  
+    "/IIVT2/Memo": {//JEM_Mainline, Deploy\JEMMemoWeb
+      "Site": "Default Web Site",
+      "ApplicationPool": "IIVT2",
+      "PhysicalPath": "D:\\Cfig_Applications\\IIVT2_Memo",
+      "EnabledProtocols": "http"
+    },  
+    "/IIVT2/PCAPPortal": {//JEM_Mainline, Deploy\JEMPCAPPortalWeb
+      "Site": "Default Web Site",
+      "ApplicationPool": "IIVT2",
+      "PhysicalPath": "D:\\Cfig_Applications\\IIVT2_PCAPPortal",
+      "EnabledProtocols": "http"
+    },  
+    "/IIVT2/TemplateAdmin": {//JEM_Mainline, Deploy\TemplateAdmin
+      "Site": "Default Web Site",
+      "ApplicationPool": "IIVT2",
+      "PhysicalPath": "D:\\Cfig_Applications\\IIVT2_TemplateAdmin",
+      "EnabledProtocols": "http"
+    },  
+    "/IIVT2/UsersAllocation": {//JEM_Mainline, Deploy\UserAllocation
+      "Site": "Default Web Site",
+      "ApplicationPool": "IIVT2",
+      "PhysicalPath": "D:\\Cfig_Applications\\IIVT2_UsersAllocation",
+      "EnabledProtocols": "http"
+    },                  
+    "/IIVT2/JEMCore": {//JEM_Mainline, Deploy\JEMCoreWeb
+      "Site": "Default Web Site",
+      "ApplicationPool": "IIVT2_Test",
+      "PhysicalPath": "D:\\Cfig_Applications\\IIVT2_JEMCore",
+      "EnabledProtocols": "http"
+    },                           
+    "/ITL/IRR": {//FundCentral_Mainline, Deploy\IRR
+      "Site": "Default Web Site",
+      "ApplicationPool": "IRR",
+      "PhysicalPath": "D:\\Cfig_Applications\\ITL_IRR",
+      "EnabledProtocols": "http"
+    },     
+    "/ITL/PCAPPortal": {//FundCentral_Mainline, Deploy\PCAPPortal
+      "Site": "Default Web Site",
+      "ApplicationPool": "PCAPPortal",
+      "PhysicalPath": "D:\\Cfig_Applications\\ITL_PCAPPortal",
+      "EnabledProtocols": "http"
+    },           
+    "/PDI": {//DI.MSS_Mainline, Deploy\WebSitePDI
+      "Site": "Default Web Site",
+      "ApplicationPool": "PDI",
+      "PhysicalPath": "D:\\Cfig_Applications\\PDI",
+      "EnabledProtocols": "http"
+    },     
+    "/PDI/MSS": {//DI.MSS_Mainline, Deploy\WebSiteMSS
+      "Site": "Default Web Site",
+      "ApplicationPool": "PDI",
+      "PhysicalPath": "D:\\Cfig_Applications\\PDI_MSS",
+      "EnabledProtocols": "http"
+    },           
+    "/PES": {//PES-Web_Mainline, Deploy\Web
+      "Site": "Default Web Site",
+      "ApplicationPool": "PES",
+      "PhysicalPath": "D:\\Cfig_Applications\\PES",
+      "EnabledProtocols": "http"
+    },                   
+    "/RDMRequestUnlock": {//RDM-WebService_Mainline, Deploy\\RDMRequestUnlock
+      "Site": "Default Web Site",
+      "ApplicationPool": "RDMRequestUnlock",
+      "PhysicalPath": "D:\\Cfig_Applications\\RDMRequestUnlock",
+      "EnabledProtocols": "http"
+    },     
+    "/WWFL2": {//FAM-Web_Mainline, Deploy\\FAMWebWorkflow
+      "Site": "Default Web Site",
+      "ApplicationPool": "WWFL2",
+      "PhysicalPath": "D:\\Cfig_Applications\\wwfl2",
+      "EnabledProtocols": "http"
+    }                        
+}

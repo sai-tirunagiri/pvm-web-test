@@ -1,0 +1,131 @@
+{
+    "ACMService": 
+    {
+        "Type": "gcminstaller-web"
+    },
+    "IIVT2_ACM": 
+    {
+        "Type": "gcminstaller-web"
+    },
+    "CME_WebSite": 
+    {
+        "Type": "gcminstaller-web"
+    },
+    "CRP": 
+    {
+        "Type": "gcminstaller-web"
+    },
+    "FCB": 
+    {
+        "Type": "gcminstaller-web"
+    },
+    "ITL": 
+    {
+        "Type": "gcminstaller-web"
+    },
+    "ITL_FCReports": 
+    {
+        "Type": "gcminstaller-web"
+    },  
+    "IFC":
+    {
+        "Type": "gcminstaller-web"
+    },  
+    "IIVT": 
+    {
+        "Type": "gcminstaller-web"
+    },
+    "IIVT_C7": 
+    {
+        "Type": "gcminstaller-web"
+    },
+    "IIVT_HELP": 
+    {
+        "Type": "gcminstaller-web"
+    },
+    "IIVT_Core": 
+    {
+        "Type": "gcminstaller-web"
+    },
+    "IIVT_Fm": 
+    {
+        "Type": "gcminstaller-web"
+    },
+    "IIVT2_CCAD_CORE": 
+    {
+        "Type": "gcminstaller-web"
+    },
+    "IIVT2_Dilution": 
+    {
+        "Type": "gcminstaller-web"
+    },
+    "IIVT2_JEM_Core_Admin": 
+    {
+        "Type": "gcminstaller-web"
+    },
+    "IIVT2_Memo": 
+    {
+        "Type": "gcminstaller-web"
+    },
+    "IIVT2_PCAPPortal": 
+    {
+        "Type": "gcminstaller-web"
+    },
+    "IIVT2_TemplateAdmin": 
+    {
+        "Type": "gcminstaller-web"
+    },
+    "IIVT2_UsersAllocation": 
+    {
+        "Type": "gcminstaller-web"
+    },
+    "IIVT2_JEMCore": 
+    {
+        "Type": "gcminstaller-web"
+    },
+    "IIVT2_DTS": 
+    {
+        "Type": "gcminstaller-web"
+    },
+    "IIVT2_managesourcemap": 
+    {
+        "Type": "gcminstaller-web"
+    },
+    "ITL_IRR": 
+    {
+        "Type": "gcminstaller-web"
+    },
+    "ITL_PCAPPortal": 
+    {
+        "Type": "gcminstaller-web"
+    },
+    "PDI": 
+    {
+        "Type": "gcminstaller-web"
+    },
+    "PDI_MSS": 
+    {
+        "Type": "gcminstaller-web"
+    },
+    "PES": 
+    {
+        "Type": "gcminstaller-web"
+    },
+    "RDMRequestUnlock": 
+    {
+        "Type": "gcminstaller-web"
+    },
+    "wwfl2": 
+    {
+        "Type": "gcminstaller-web"
+    },
+    "aicore_wwwroot": 
+    {
+        "Type": "gcminstaller-web"
+    },
+    "static_CME_Silverlight":
+    {
+        "Type": "static",
+        "TargetFolder":"D:\\Cfig_Applications\\CME_Silverlight"
+    }    
+}

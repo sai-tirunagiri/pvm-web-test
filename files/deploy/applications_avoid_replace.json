@@ -1,0 +1,17 @@
+{
+    "static_commonlibrary":
+    {
+         "Type": "static",
+         "TargetFolder":"D:\\Cfig_Applications\\CommonLibrary"
+    },
+    "static_itl_pcap_pickers":
+    {
+         "Type": "static",
+         "TargetFolder":"D:\\Cfig_Applications\\ITL_PCAPPortal\\Library\\Pickers"
+    },
+    "static_pes_images":
+    {
+        "Type": "static",
+        "TargetFolder":"D:\\Cfig_Applications\\PES\\Library\\Images"
+    }
+}

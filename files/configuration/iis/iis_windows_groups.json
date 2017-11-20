@@ -1,0 +1,26 @@
+{
+  "IIS_IUSRS": {
+    "Members": [
+      "GROSVENOR\\PvmSys_#{attributes['NonPrdOrPrd']}_Care",
+      "GROSVENOR\\Domain Users",
+      "IIS APPPOOL\\IIVT2",
+      "IIS APPPOOL\\DefaultAppPool",
+      "GROSVENOR\\PvmSys_#{attributes['NonPrdOrPrd']}_DI",
+      "IIS APPPOOL\\ACM",
+      "IIS APPPOOL\\CME_SilverLight",
+      "IIS APPPOOL\\CRP",
+      "IIS APPPOOL\\FCB",
+      "IIS APPPOOL\\FCReports",
+      "IIS APPPOOL\\IFC",
+      "IIS APPPOOL\\IIVT",
+      "IIS APPPOOL\\IRR",
+      "IIS APPPOOL\\ITL",
+      "IIS APPPOOL\\PCAPPortal",
+      "IIS APPPOOL\\PDI",
+      "IIS APPPOOL\\PES",
+      "IIS APPPOOL\\RDMRequestUnlock",
+      "IIS APPPOOL\\WWFL2",
+      "GROSVENOR\\PvmSys_#{attributes['NonPrdOrPrd']}_CME"
+    ]
+  }
+}

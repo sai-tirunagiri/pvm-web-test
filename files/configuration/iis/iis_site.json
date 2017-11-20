@@ -1,0 +1,20 @@
+{
+  "Default Web Site": {
+    "ApplicationPool": "DefaultAppPool",
+    "PhysicalPath": "D:\\inetpub\\wwwroot",
+    "Port": 80,
+    "Protocol": "http",
+    "Authentication": [
+      ""
+    ]
+  },
+  "Reporting": {
+    "ApplicationPool": "Reporting",
+    "PhysicalPath": "D:\\inetpub\\reporting",
+    "Port": 81,
+    "Protocol": "http",
+    "Authentication": [
+      ""
+    ]
+  }
+}

@@ -1,0 +1,264 @@
+{
+  "D:\\": {
+    "Permissions": {
+      "BUILTIN\\Administrators": [
+        "FullControl"
+      ],
+      "BUILTIN\\IIS_IUSRS": [
+        "ReadAndExecute"
+      ],
+      "BUILTIN\\Users": [
+        "Modify",
+        "Write",
+        "ReadAndExecute"
+      ],
+      "Everyone": [
+        "ReadAndExecute"
+      ],
+      "IIS APPPOOL\\DefaultAppPool": [
+        "ReadAndExecute"
+      ],
+      "NT AUTHORITY\\IUSR": [
+        "ReadAndExecute"
+      ],
+      "NT AUTHORITY\\NETWORK SERVICE": [
+        "FullControl"
+      ],
+      "NT AUTHORITY\\SYSTEM": [
+        "FullControl"
+      ]
+    }
+  },
+  "D:\\Cfig_Applications\\IIVT2_CCAD_CORE": {
+    "Permissions": {
+      "IIS APPPOOL\\IIVT2": [
+        "Read"
+      ],
+      "NT AUTHORITY\\IUSR": [
+        "Read"
+      ]
+    }
+  },
+  "D:\\Cfig_Applications\\IIVT2_Dilution": {
+    "Permissions": {
+      "IIS APPPOOL\\IIVT2": [
+        "Read"
+      ],
+      "NT AUTHORITY\\IUSR": [
+        "Read"
+      ]
+    }
+  },
+  "D:\\Cfig_Applications\\IIVT2_DTS": {
+    "Permissions": {
+      "IIS APPPOOL\\IIVT2": [
+        "Read"
+      ],
+      "NT AUTHORITY\\IUSR": [
+        "Read"
+      ]
+    }
+  },
+  "D:\\Cfig_Applications\\IIVT2_JEM_Core_Admin": {
+    "Permissions": {
+      "IIS APPPOOL\\IIVT2": [
+        "Read"
+      ],
+      "NT AUTHORITY\\IUSR": [
+        "Read"
+      ]
+    }
+  },
+  "D:\\Cfig_Applications\\IIVT2_JEMCore": {
+    "Permissions": {
+      "IIS APPPOOL\\IIVT2": [
+        "Read"
+      ],
+      "NT AUTHORITY\\IUSR": [
+        "Read"
+      ]
+    }
+  },
+  "D:\\Cfig_Applications\\IIVT2_managesourcemap": {
+    "Permissions": {
+      "IIS APPPOOL\\IIVT2": [
+        "Read"
+      ],
+      "NT AUTHORITY\\IUSR": [
+        "Read"
+      ]
+    }
+  },
+  "D:\\Cfig_Applications\\IIVT2_Memo": {
+    "Permissions": {
+      "IIS APPPOOL\\IIVT2": [
+        "Read"
+      ],
+      "NT AUTHORITY\\IUSR": [
+        "Read"
+      ]
+    }
+  },
+  "D:\\Cfig_Applications\\IIVT2_PCAPPortal": {
+    "Permissions": {
+      "IIS APPPOOL\\IIVT2": [
+        "Read"
+      ],
+      "NT AUTHORITY\\IUSR": [
+        "Read"
+      ]
+    }
+  },
+  "D:\\Cfig_Applications\\IIVT2_TemplateAdmin": {
+    "Permissions": {
+      "IIS APPPOOL\\IIVT2": [
+        "Read"
+      ],
+      "NT AUTHORITY\\IUSR": [
+        "Read"
+      ]
+    }
+  },
+  "D:\\Cfig_Applications\\IIVT2_UsersAllocation": {
+    "Permissions": {
+      "IIS APPPOOL\\IIVT2": [
+        "Read"
+      ],
+      "NT AUTHORITY\\IUSR": [
+        "Read"
+      ]
+    }
+  },
+  "D:\\Cfig_Applications\\ITL_FCReports": {
+    "Permissions": {
+      "IIS APPPOOL\\FCReports": [
+        "Read"
+      ],
+      "NT AUTHORITY\\IUSR": [
+        "Read"
+      ]
+    }
+  },
+  "D:\\Cfig_Applications\\ITL_PCAPPortal": {
+    "Permissions": {
+      "IIS APPPOOL\\PCAPPortal": [
+        "Read"
+      ],
+      "NT AUTHORITY\\IUSR": [
+        "Read"
+      ]
+    }
+  },
+  "D:\\Cfig_Applications\\wwfl2": {
+    "Permissions": {
+      "IIS APPPOOL\\WWFL2": [
+        "Read"
+      ],
+      "NT AUTHORITY\\IUSR": [
+        "Read"
+      ]
+    }
+  },
+  "D:\\Cfig_Applications\\ACMService": {
+    "Permissions": {}
+  },
+  "D:\\Cfig_Applications\\IIVT2": {
+    "Permissions": {}
+  },
+  "D:\\Cfig_Applications\\IIVT2_ACM": {
+    "Permissions": {}
+  },
+  "D:\\Cfig_Applications\\CME_WebSite": {
+    "Permissions": {}
+  },
+  "D:\\Cfig_Applications\\CME_Silverlight": {
+    "Permissions": {}
+  },
+  "D:\\Cfig_Applications\\CRP": {
+    "Permissions": {}
+  },
+  "D:\\Cfig_Applications\\FCB": {
+    "Permissions": {}
+  },
+  "D:\\Cfig_Applications\\ITL": {
+    "Permissions": {}
+  },
+  "D:\\Cfig_Applications\\IFC": {
+    "Permissions": {}
+  },
+  "D:\\Cfig_Applications\\IIVT": {
+    "Permissions": {}
+  },
+  "D:\\Cfig_Applications\\IIVT\\ReportViewer": {
+    "Permissions": {}
+  },
+  "D:\\Cfig_Applications\\IIVT\\ReportViewer\\Data": {
+    "Permissions": {}
+  },
+  "D:\\Cfig_Applications\\IIVT_C7": {
+    "Permissions": {}
+  },
+  "D:\\Cfig_Applications\\IIVT_HELP": {
+    "Permissions": {}
+  },
+  "D:\\Cfig_Applications\\IIVT_Core": {
+    "Permissions": {}
+  },
+  "D:\\Cfig_Applications\\IIVT_Fm": {
+    "Permissions": {}
+  },
+  "D:\\Cfig_Applications\\ITL_IRR": {
+    "Permissions": {}
+  },
+  "D:\\Cfig_Applications\\PDI": {
+    "Permissions": {}
+  },
+  "D:\\Cfig_Applications\\PDI_MSS": {
+    "Permissions": {}
+  },
+  "D:\\Cfig_Applications\\PES": {
+    "Permissions": {}
+  },
+  "D:\\Cfig_Applications\\RDMRequestUnlock": {
+    "Permissions": {}
+  },
+  "D:\\Cfig_Applications\\IIVT2_JEMCore\\library": {
+    "Permissions": {}
+  },
+  "D:\\Cfig_Applications\\IIVT2_CCAD_CORE\\Images": {
+    "Permissions": {}
+  },
+  "D:\\Cfig_Applications\\ITL_PCAPPortal_Pickers": {
+    "Permissions": {}
+  },
+  "D:\\Cfig_Applications\\PDI_MSS\\Images": {
+    "Permissions": {}
+  },
+  "D:\\Cfig_Applications\\CommonLibrary": {
+    "Permissions": {}
+  },
+  "D:\\Cfig_Applications\\CommonLibrary\\Infragistics": {
+    "Permissions": {}
+  },
+  "D:\\inetpub\\wwwroot\\WebService": {
+    "Permissions": {}
+  },
+  "D:\\inetpub\\reporting": {
+    "Permissions": {}
+  },
+  "D:\\inetpub\\logs\\LogFiles": {
+    "Permissions": {}
+  },
+  "D:\\Cfig_Applications\\PES\\Library": {
+    "Permissions": {}
+  },
+  "D:\\Cfig_Applications\\IIVT\\ReportViewer": {
+    "Permissions": {}
+  },
+  "D:\\Cfig_Applications\\CME_WebSite\\WebService": {
+    "Permissions": {}
+  },
+  "D:\\Cfig_Applications\\PES\\Workflow": {
+    "Permissions": {}
+  }
+}

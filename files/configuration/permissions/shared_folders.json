@@ -1,0 +1,116 @@
+{
+  "Cfig_Applications": {
+    "Path": "D:\\Cfig_Applications",
+    "Permissions": {
+      "Everyone": [
+        "Full"
+      ],
+      "BUILTIN\\Administrators": [
+        "Full"
+      ]
+    }
+  },
+  "ICReports": {
+    "Path": "D:\\Cfig_Applications\\IIVT",
+    "Permissions": {
+      "Everyone": [
+        "Read"
+      ],
+      "NT AUTHORITY\\IUSR": [
+        "Full"
+      ],
+      "GROSVENOR\\Business Development Team": [
+        "Full"
+      ],
+      "GROSVENOR\\qa group": [
+        "Full"
+      ]
+    }
+  },
+  "IISLogs": {
+    "Path": "D:\\inetpub\\logs",
+    "Permissions": {
+      "Everyone": [
+        "Read"
+      ]
+    }
+  },
+  "IIVT": {
+    "Path": "D:\\Cfig_Applications\\IIVT",
+    "Permissions": {
+      "Everyone": [
+        "Read"
+      ],
+      "NT AUTHORITY\\IUSR": [
+        "Full"
+      ],
+      "GROSVENOR\\Business Development Team": [
+        "Full"
+      ],
+      "GROSVENOR\\qa group": [
+        "Full"
+      ]
+    }
+  },
+  "IIVT_ACM_ADDIN": {
+    "Path": "D:\\Cfig_Applications\\IIVT\\ReportViewer\\Data",
+    "Permissions": {
+      "Everyone": [
+        "Read"
+      ],
+      "NT AUTHORITY\\IUSR": [
+        "Full"
+      ],
+      "GROSVENOR\\Business Development Team": [
+        "Full"
+      ],
+      "GROSVENOR\\qa group": [
+        "Full"
+      ]
+    }
+  },
+  "LogFiles": {
+    "Path": "D:\\inetpub\\logs\\LogFiles",
+    "Permissions": {
+      "Everyone": [
+        "Full"
+      ],
+      "BUILTIN\\Administrators": [
+        "Full"
+      ]
+    }
+  },
+  "ReportViewer": {
+    "Path": "D:\\Cfig_Applications\\IIVT\\ReportViewer",
+    "Permissions": {
+      "GROSVENOR\\qa group": [
+        "Full"
+      ],
+      "GROSVENOR\\Private Markets Employees - All Locations": [
+        "Full"
+      ]
+    }
+  },
+  "wwwroot": {
+    "Path": "D:\\inetpub\\wwwroot",
+    "Permissions": {
+      "Everyone": [
+        "Full"
+      ],
+      "BUILTIN\\Administrators": [
+        "Full"
+      ]
+    }
+  },
+  "inetpub": {
+    "Path": "D:\\inetpub",
+    "Permissions": {
+      "Everyone": [
+        "Full"
+      ],
+      "BUILTIN\\Administrators": [
+        "Full"
+      ]
+    }
+  }
+}

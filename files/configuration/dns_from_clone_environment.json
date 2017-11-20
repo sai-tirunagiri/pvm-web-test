@@ -1,0 +1,30 @@
+{
+    "PrimaryDnsIp": "127.0.0.1",
+    "PrimaryZoneName": "env",
+    "ForwarderIp": "10.50.5.254",
+    "Cnames": {
+        "aw-pvm-db#{ENV['Environment'].to_s.split('-')[0]}01": "pvm-db01-#{ENV['Environment']}.gcmlp.com",
+        "pvm-db01-#{ENV['Environment'].to_s.split('-')[0]}": "pvm-db01-#{ENV['Environment']}.gcmlp.com",
+        "aw-pvm-db#{ENV['Environment'].to_s.split('-')[0]}02": "pvm-db02-#{ENV['Environment']}.gcmlp.com",
+        "pvm-db02-#{ENV['Environment'].to_s.split('-')[0]}": "pvm-db02-#{ENV['Environment']}.gcmlp.com",
+        "aw-pvm-db#{ENV['Environment'].to_s.split('-')[0]}03": "pvm-db03-#{ENV['Environment']}.gcmlp.com",
+        "pvm-db03-#{ENV['Environment'].to_s.split('-')[0]}": "pvm-db03-#{ENV['Environment']}.gcmlp.com",
+        "aw-pvm-db#{ENV['Environment'].to_s.split('-')[0]}04": "pvm-db04-#{ENV['Environment']}.gcmlp.com",
+        "pvm-db04-#{ENV['Environment'].to_s.split('-')[0]}": "pvm-db04-#{ENV['Environment']}.gcmlp.com",
+        "aw-pvm-db#{ENV['Environment'].to_s.split('-')[0]}05": " pvm-db05-#{ENV['Environment']}.gcmlp.com",
+        "pvm-db05-#{ENV['Environment'].to_s.split('-')[0]}": " pvm-db05-#{ENV['Environment']}.gcmlp.com",
+        "aw-pvm-web#{ENV['Environment'].to_s.split('-')[0]}01": "pvm-web-#{ENV['Environment']}.gcmlp.com",
+        "pvm-web-#{ENV['Environment'].to_s.split('-')[0]}": "pvm-web-#{ENV['Environment']}.gcmlp.com",
+        "aw-pvm-app#{ENV['Environment'].to_s.split('-')[0]}01": "pvm-app-#{ENV['Environment']}.gcmlp.com",
+        "pvm-app-#{ENV['Environment'].to_s.split('-')[0]}": "pvm-app-#{ENV['Environment']}.gcmlp.com",
+        "aw-pvm-cme#{ENV['Environment'].to_s.split('-')[0]}01": "pvm-cme-#{ENV['Environment']}.gcmlp.com",
+        "pvm-cme-#{ENV['Environment'].to_s.split('-')[0]}": "pvm-cme-#{ENV['Environment']}.gcmlp.com",
+        "aw-pvm-bzt#{ENV['Environment'].to_s.split('-')[0]}01": "pvm-biztalk-#{ENV['Environment']}.gcmlp.com",
+        "pvm-biztalk-#{ENV['Environment'].to_s.split('-')[0]}": "pvm-biztalk-#{ENV['Environment']}.gcmlp.com",
+        "pvm-bzt-#{ENV['Environment'].to_s.split('-')[0]}": "pvm-bzt-#{ENV['Environment']}.gcmlp.com",
+        "aw-pvm-fil#{ENV['Environment'].to_s.split('-')[0]}01": "pvm-files-#{ENV['Environment']}.gcmlp.com",
+        "pvm-files-#{ENV['Environment'].to_s.split('-')[0]}": "pvm-files-#{ENV['Environment']}.gcmlp.com",
+        "aw-pvm-srs#{ENV['Environment'].to_s.split('-')[0]}01": "pvm-iris-#{ENV['Environment']}.gcmlp.com",
+        "pvm-ssrs-#{ENV['Environment'].to_s.split('-')[0]}": "pvm-iris-#{ENV['Environment']}.gcmlp.com"
+    }
+}

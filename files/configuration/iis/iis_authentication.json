@@ -1,0 +1,113 @@
+//Holds all Exceptions when it comes to authentication of Web Apps
+/*Supported Options are:
+   - anonymousAuthentication
+   - basicAuthentication
+   - clientCertificateMappingAuthentication 
+   - digestAuthentication
+   - iisClientCertificateMappingAuthentication
+   - windowsAuthentication   
+ The configuration bellow was obtained from 
+ C:\Windows\System32\inetsrv\config\applicationHost.config
+ From UAT Server
+*/
+{    
+    "Default":
+    {
+        "anonymousAuthentication":true,
+        "basicAuthentication":false,
+        "clientCertificateMappingAuthentication":false,
+        "digestAuthentication":false,
+        "iisClientCertificateMappingAuthentication":false,
+        "windowsAuthentication":false 
+    },
+    "Exceptions":
+    {  
+        "Default Web Site": 
+        {
+            "windowsAuthentication":true, 
+            "anonymousAuthentication":false              
+        },      
+        "Default Web Site/Login.aspx": 
+        {
+            "anonymousAuthentication":false              
+        },    
+        
+        "Default Web Site/IIVT": 
+        {
+            "anonymousAuthentication":false              
+        },  
+        
+        "Default Web Site/IIVT/ReportViewer":
+        {
+            "windowsAuthentication":true, 
+            "anonymousAuthentication":true               
+        },       
+                
+        "Default Web Site/iivt/Reports":
+        {
+            "windowsAuthentication":true, 
+            "anonymousAuthentication":false               
+        },         
+               
+        "Default Web Site/iivt/ReportViewer/configuration":
+        {
+            "windowsAuthentication":true               
+        },    
+          
+        "Default Web Site/CME/WebService/CMEWebService.asmx":
+        {
+            "windowsAuthentication":false, 
+            "anonymousAuthentication":true               
+        },        
+                                       
+        "Default Web Site/IIVT2": 
+        {
+            "anonymousAuthentication":false              
+        },  
+                  
+        "Default Web Site/ifc": 
+        {
+            "anonymousAuthentication":true              
+        },          
+                  
+        "Default Web Site/IIVT2/CCAD_Core": 
+        {
+            "anonymousAuthentication":false              
+        },   
+                          
+        "Default Web Site/CRP": 
+        {
+            "anonymousAuthentication":false              
+        },   
+                
+        "Default Web Site/WebService": 
+        {
+            "windowsAuthentication":true, 
+            "anonymousAuthentication":true                 
+        },   
+                          
+        "Default Web Site/PES/Library": 
+        {
+            "anonymousAuthentication":true               
+        },
+                          
+        "Default Web Site/PrimeRdm3": 
+        {
+            "anonymousAuthentication":true               
+        },
+                
+        "Default Web Site/CME":
+        {
+            "windowsAuthentication":true, 
+            "anonymousAuthentication":true,
+            "basicAuthentication":false          
+        },          
+                
+        "Default Web Site/CME/WebService":
+        {
+           "windowsAuthentication":true, 
+            "anonymousAuthentication":true,
+            "basicAuthentication":false                  
+        }
+    }         
+}

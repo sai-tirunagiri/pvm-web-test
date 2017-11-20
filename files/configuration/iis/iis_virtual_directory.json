@@ -1,0 +1,68 @@
+[
+  {
+    "Name": "Library",
+    "Site": "Default Web Site",
+    "ApplicationPath": "/IIVT2",
+    "PhysicalPath": "D:\\Cfig_Applications\\IIVT2_JEMCore\\library",
+    "PhysicalPathCredentials": {
+      "LogonType": "ClearText",
+      "UserName": "",
+      "Password": ""
+    }
+  },
+  {
+    "Name": "Images",
+    "Site": "Default Web Site",
+    "ApplicationPath": "/IIVT2",
+    "PhysicalPath": "D:\\Cfig_Applications\\IIVT2_CCAD_CORE\\Images",
+    "PhysicalPathCredentials": {
+      "LogonType": "ClearText",
+      "UserName": "",
+      "Password": ""
+    }
+  },
+  {
+    "Name": "Library/Pickers",
+    "Site": "Default Web Site",
+    "ApplicationPath": "/ITL/PCAPPortal",
+    "PhysicalPath": "D:\\Cfig_Applications\\ITL_PCAPPortal_Pickers",
+    "PhysicalPathCredentials": {
+      "LogonType": "ClearText",
+      "UserName": "",
+      "Password": ""
+    }
+  },
+  {
+    "Name": "Images",
+    "Site": "Default Web Site",
+    "ApplicationPath": "/",
+    "PhysicalPath": "D:\\Cfig_Applications\\PDI_MSS\\Images",
+    "PhysicalPathCredentials": {
+      "LogonType": "ClearText",
+      "UserName": "",
+      "Password": ""
+    }
+  },
+  {
+    "Name": "CommonLibrary",
+    "Site": "Default Web Site",
+    "ApplicationPath": "/",
+    "PhysicalPath": "D:\\Cfig_Applications\\CommonLibrary",
+    "PhysicalPathCredentials": {
+      "LogonType": "ClearText",
+      "UserName": "",
+      "Password": ""
+    }
+  },
+  {
+    "Name": "ig_common",
+    "Site": "Default Web Site",
+    "ApplicationPath": "/",
+    "PhysicalPath": "D:\\Cfig_Applications\\CommonLibrary\\Infragistics",
+    "PhysicalPathCredentials": {
+      "LogonType": "ClearText",
+      "UserName": "",
+      "Password": ""
+    }
+  }
+]

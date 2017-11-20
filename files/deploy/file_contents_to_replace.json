@@ -1,0 +1,59 @@
+[
+    {
+        "Wildcards": [
+            "*.json",
+            "*.config",
+            "*.xml"
+        ],
+        "Replacements": {
+            "Wildcards": [
+                "{0}:", //When a port is specified, pvm-web-dev:8080
+                "{0}\\", //Network chare, pvm-web-dev\
+                "{0}/", //Url, pvm-web-dev/
+                "{0};", //Connectionstring, pvm-web-dev;
+                "{0}\"\"", //Parameter, pvm-web-dev"
+                "{0}.", //Full machine name(including domain), pvm-web-dev.gcmlp.com
+                "{0}<", //Closing XML Tag <tag>pvm-web-dev</tag>
+                "{0} ", //Simple White Space
+                "{0}''" //Simple Quote
+            ],
+            "Entries": {
+                "aw-pvm-web#{ENV['Environment'].to_s.split('-')[0]}01": "pvm-web#{node[cookbook_name.to_s]['EnvExtension']}",
+                "aw-pvm-app#{ENV['Environment'].to_s.split('-')[0]}01": "pvm-app#{node[cookbook_name.to_s]['EnvExtension']}",
+                "aw-pvm-db#{ENV['Environment'].to_s.split('-')[0]}01": "pvm-db01#{node[cookbook_name.to_s]['EnvExtension']}",
+                "aw-pvm-db#{ENV['Environment'].to_s.split('-')[0]}02": "pvm-db02#{node[cookbook_name.to_s]['EnvExtension']}",
+                "aw-pvm-srs#{ENV['Environment'].to_s.split('-')[0]}01": "pvm-ssrs#{node[cookbook_name.to_s]['EnvExtension']}",
+                "aw-pvm-iri#{ENV['Environment'].to_s.split('-')[0]}01": "pvm-iris#{node[cookbook_name.to_s]['EnvExtension']}",
+                "aw-pvm-sis#{ENV['Environment'].to_s.split('-')[0]}01": "pvm-ssis#{node[cookbook_name.to_s]['EnvExtension']}",
+                "aw-pvm-crm#{ENV['Environment'].to_s.split('-')[0]}01": "pvm-crm#{node[cookbook_name.to_s]['EnvExtension']}",
+                "aw-pvm-db#{ENV['Environment'].to_s.split('-')[0]}03": "pvm-db03#{node[cookbook_name.to_s]['EnvExtension']}",
+                "aw-pvm-db#{ENV['Environment'].to_s.split('-')[0]}04": "pvm-db04#{node[cookbook_name.to_s]['EnvExtension']}",
+                "aw-pvm-db#{ENV['Environment'].to_s.split('-')[0]}05": "pvm-db05#{node[cookbook_name.to_s]['EnvExtension']}",
+                "aw-pvm-fil#{ENV['Environment'].to_s.split('-')[0]}01": "pvm-files#{node[cookbook_name.to_s]['EnvExtension']}",
+                "aw-pvm-acm#{ENV['Environment'].to_s.split('-')[0]}01": "pvm-acm#{node[cookbook_name.to_s]['EnvExtension']}",
+                "aw-pvm-cme#{ENV['Environment'].to_s.split('-')[0]}01": "pvm-cme#{node[cookbook_name.to_s]['EnvExtension']}",
+                "aw-pvm-fcr#{ENV['Environment'].to_s.split('-')[0]}01": "pvm-fcrelay#{node[cookbook_name.to_s]['EnvExtension']}",
+                "pvm-investrancrm-#{ENV['Environment'].to_s.split('-')[0]}": "pvm-investrancrm#{node[cookbook_name.to_s]['EnvExtension']}",
+                "pvm-investranapp-#{ENV['Environment'].to_s.split('-')[0]}": "pvm-investranapp#{node[cookbook_name.to_s]['EnvExtension']}",
+                "pvm-biztalk-#{ENV['Environment'].to_s.split('-')[0]}": "#{node[cookbook_name.to_s]['BizTalkServer']}",
+                "pvm-bzt-#{ENV['Environment'].to_s.split('-')[0]}": "#{node[cookbook_name.to_s]['BizTalkServer']}",
+                "pvm-web-#{ENV['Environment'].to_s.split('-')[0]}": "pvm-web#{node[cookbook_name.to_s]['EnvExtension']}",
+                "pvm-app-#{ENV['Environment'].to_s.split('-')[0]}": "pvm-app#{node[cookbook_name.to_s]['EnvExtension']}",
+                "pvm-db01-#{ENV['Environment'].to_s.split('-')[0]}": "pvm-db01#{node[cookbook_name.to_s]['EnvExtension']}",
+                "pvm-db02-#{ENV['Environment'].to_s.split('-')[0]}": "pvm-db02#{node[cookbook_name.to_s]['EnvExtension']}",
+                "pvm-ssrs-#{ENV['Environment'].to_s.split('-')[0]}": "pvm-ssrs#{node[cookbook_name.to_s]['EnvExtension']}",
+                "pvm-iris-#{ENV['Environment'].to_s.split('-')[0]}": "pvm-iris#{node[cookbook_name.to_s]['EnvExtension']}",
+                "pvm-ssis-#{ENV['Environment'].to_s.split('-')[0]}": "pvm-ssis#{node[cookbook_name.to_s]['EnvExtension']}",
+                "pvm-crm-#{ENV['Environment'].to_s.split('-')[0]}": "pvm-crm#{node[cookbook_name.to_s]['EnvExtension']}",
+                "pvm-db03-#{ENV['Environment'].to_s.split('-')[0]}": "pvm-db03#{node[cookbook_name.to_s]['EnvExtension']}",
+                "pvm-db04-#{ENV['Environment'].to_s.split('-')[0]}": "pvm-db04#{node[cookbook_name.to_s]['EnvExtension']}",
+                "pvm-db05-#{ENV['Environment'].to_s.split('-')[0]}": "pvm-db05#{node[cookbook_name.to_s]['EnvExtension']}",
+                "pvm-files-#{ENV['Environment'].to_s.split('-')[0]}": "pvm-files#{node[cookbook_name.to_s]['EnvExtension']}",
+                "pvm-acm-#{ENV['Environment'].to_s.split('-')[0]}": "pvm-acm#{node[cookbook_name.to_s]['EnvExtension']}",
+                "pvm-cme-#{ENV['Environment'].to_s.split('-')[0]}": "pvm-cme#{node[cookbook_name.to_s]['EnvExtension']}",
+                "pvm-fcrelay-#{ENV['Environment'].to_s.split('-')[0]}": "pvm-fcrelay#{node[cookbook_name.to_s]['EnvExtension']}",
+                "aw-pvm-bzt#{ENV['Environment'].to_s.split('-')[0]}01": "#{node[cookbook_name.to_s]['BizTalkServer']}"
+            }
+        }
+    }
+]

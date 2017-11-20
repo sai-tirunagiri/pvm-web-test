@@ -1,0 +1,408 @@
+{
+  "Resources": {
+    "LB": {
+      "Properties": {
+        "Listeners": {
+          "$append": [
+            {
+              "InstancePort": "139",
+              "LoadBalancerPort": "139",
+              "Protocol": "TCP",
+              "InstanceProtocol": "TCP",
+              "PolicyNames": []
+            },
+            {
+              "InstancePort": "445",
+              "LoadBalancerPort": "445",
+              "Protocol": "TCP",
+              "InstanceProtocol": "TCP",
+              "PolicyNames": []
+            },
+            {
+              "InstancePort": "8080",
+              "LoadBalancerPort": "8080",
+              "Protocol": "TCP",
+              "InstanceProtocol": "TCP",
+              "PolicyNames": []
+            },
+            {
+              "InstancePort": "1050",
+              "LoadBalancerPort": "1050",
+              "Protocol": "TCP",
+              "InstanceProtocol": "TCP",
+              "PolicyNames": []
+            },
+            {
+              "InstancePort": "1150",
+              "LoadBalancerPort": "1150",
+              "Protocol": "TCP",
+              "InstanceProtocol": "TCP",
+              "PolicyNames": []
+            },
+            {
+              "InstancePort": "1130",
+              "LoadBalancerPort": "1130",
+              "Protocol": "TCP",
+              "InstanceProtocol": "TCP",
+              "PolicyNames": []
+            },
+            {
+              "InstancePort": "1090",
+              "LoadBalancerPort": "1090",
+              "Protocol": "TCP",
+              "InstanceProtocol": "TCP",
+              "PolicyNames": []
+            },
+            {
+              "InstancePort": "1070",
+              "LoadBalancerPort": "1070",
+              "Protocol": "TCP",
+              "InstanceProtocol": "TCP",
+              "PolicyNames": []
+            },
+            {
+              "InstancePort": "1110",
+              "LoadBalancerPort": "1110",
+              "Protocol": "TCP",
+              "InstanceProtocol": "TCP",
+              "PolicyNames": []
+            },
+            {
+              "InstancePort": "1020",
+              "LoadBalancerPort": "1020",
+              "Protocol": "TCP",
+              "InstanceProtocol": "TCP",
+              "PolicyNames": []
+            },
+            {
+              "InstancePort": "1190",
+              "LoadBalancerPort": "1190",
+              "Protocol": "TCP",
+              "InstanceProtocol": "TCP",
+              "PolicyNames": []
+            }
+          ]
+        }
+      }
+    },
+    "SGIngressLB139": {
+      "Type": "AWS::EC2::SecurityGroupIngress",
+      "Properties": {
+        "GroupId": {
+          "Ref": "SGLB"
+        },
+        "IpProtocol": "TCP",
+        "FromPort": "139",
+        "ToPort": "139",
+        "CidrIp": "0.0.0.0/0"
+      }
+    },
+    "SGIngressLB445": {
+      "Type": "AWS::EC2::SecurityGroupIngress",
+      "Properties": {
+        "GroupId": {
+          "Ref": "SGLB"
+        },
+        "IpProtocol": "TCP",
+        "FromPort": "445",
+        "ToPort": "445",
+        "CidrIp": "0.0.0.0/0"
+      }
+    },
+    "SGIngressLB8080": {
+      "Type": "AWS::EC2::SecurityGroupIngress",
+      "Properties": {
+        "GroupId": {
+          "Ref": "SGLB"
+        },
+        "IpProtocol": "TCP",
+        "FromPort": "8080",
+        "ToPort": "8080",
+        "CidrIp": "0.0.0.0/0"
+      }
+    },
+    "SGIngressLB1050": {
+      "Type": "AWS::EC2::SecurityGroupIngress",
+      "Properties": {
+        "GroupId": {
+          "Ref": "SGLB"
+        },
+        "IpProtocol": "TCP",
+        "FromPort": "1050",
+        "ToPort": "1050",
+        "CidrIp": "0.0.0.0/0"
+      }
+    },
+    "SGIngressLB1150": {
+      "Type": "AWS::EC2::SecurityGroupIngress",
+      "Properties": {
+        "GroupId": {
+          "Ref": "SGLB"
+        },
+        "IpProtocol": "TCP",
+        "FromPort": "1150",
+        "ToPort": "1150",
+        "CidrIp": "0.0.0.0/0"
+      }
+    },
+    "SGIngressLB1130": {
+      "Type": "AWS::EC2::SecurityGroupIngress",
+      "Properties": {
+        "GroupId": {
+          "Ref": "SGLB"
+        },
+        "IpProtocol": "TCP",
+        "FromPort": "1130",
+        "ToPort": "1130",
+        "CidrIp": "0.0.0.0/0"
+      }
+    },
+    "SGIngressLB1090": {
+      "Type": "AWS::EC2::SecurityGroupIngress",
+      "Properties": {
+        "GroupId": {
+          "Ref": "SGLB"
+        },
+        "IpProtocol": "TCP",
+        "FromPort": "1090",
+        "ToPort": "1090",
+        "CidrIp": "0.0.0.0/0"
+      }
+    },
+    "SGIngressLB1070": {
+      "Type": "AWS::EC2::SecurityGroupIngress",
+      "Properties": {
+        "GroupId": {
+          "Ref": "SGLB"
+        },
+        "IpProtocol": "TCP",
+        "FromPort": "1070",
+        "ToPort": "1070",
+        "CidrIp": "0.0.0.0/0"
+      }
+    },
+    "SGIngressLB1110": {
+      "Type": "AWS::EC2::SecurityGroupIngress",
+      "Properties": {
+        "GroupId": {
+          "Ref": "SGLB"
+        },
+        "IpProtocol": "TCP",
+        "FromPort": "1110",
+        "ToPort": "1110",
+        "CidrIp": "0.0.0.0/0"
+      }
+    },
+    "SGIngressLB1020": {
+      "Type": "AWS::EC2::SecurityGroupIngress",
+      "Properties": {
+        "GroupId": {
+          "Ref": "SGLB"
+        },
+        "IpProtocol": "TCP",
+        "FromPort": "1020",
+        "ToPort": "1020",
+        "CidrIp": "0.0.0.0/0"
+      }
+    },
+    "SGIngressLB1190": {
+      "Type": "AWS::EC2::SecurityGroupIngress",
+      "Properties": {
+        "GroupId": {
+          "Ref": "SGLB"
+        },
+        "IpProtocol": "TCP",
+        "FromPort": "1190",
+        "ToPort": "1190",
+        "CidrIp": "0.0.0.0/0"
+      }
+    },
+    "SGIngressInstance139": {
+      "Type": "AWS::EC2::SecurityGroupIngress",
+      "Properties": {
+        "GroupId": {
+          "Ref": "SGInstance"
+        },
+        "IpProtocol": "TCP",
+        "FromPort": "139",
+        "ToPort": "139",
+        "SourceSecurityGroupId": {
+          "Fn::GetAtt": [
+            "SGLB",
+            "GroupId"
+          ]
+        }
+      }
+    },
+    "SGIngressInstance445": {
+      "Type": "AWS::EC2::SecurityGroupIngress",
+      "Properties": {
+        "GroupId": {
+          "Ref": "SGInstance"
+        },
+        "IpProtocol": "TCP",
+        "FromPort": "445",
+        "ToPort": "445",
+        "SourceSecurityGroupId": {
+          "Fn::GetAtt": [
+            "SGLB",
+            "GroupId"
+          ]
+        }
+      }
+    },
+    "SGIngressInstance8080": {
+      "Type": "AWS::EC2::SecurityGroupIngress",
+      "Properties": {
+        "GroupId": {
+          "Ref": "SGInstance"
+        },
+        "IpProtocol": "TCP",
+        "FromPort": "8080",
+        "ToPort": "8080",
+        "SourceSecurityGroupId": {
+          "Fn::GetAtt": [
+            "SGLB",
+            "GroupId"
+          ]
+        }
+      }
+    },
+    "SGIngressInstance1050": {
+      "Type": "AWS::EC2::SecurityGroupIngress",
+      "Properties": {
+        "GroupId": {
+          "Ref": "SGInstance"
+        },
+        "IpProtocol": "TCP",
+        "FromPort": "1050",
+        "ToPort": "1050",
+        "SourceSecurityGroupId": {
+          "Fn::GetAtt": [
+            "SGLB",
+            "GroupId"
+          ]
+        }
+      }
+    },
+    "SGIngressInstance1150": {
+      "Type": "AWS::EC2::SecurityGroupIngress",
+      "Properties": {
+        "GroupId": {
+          "Ref": "SGInstance"
+        },
+        "IpProtocol": "TCP",
+        "FromPort": "1150",
+        "ToPort": "1150",
+        "SourceSecurityGroupId": {
+          "Fn::GetAtt": [
+            "SGLB",
+            "GroupId"
+          ]
+        }
+      }
+    },
+    "SGIngressInstance1130": {
+      "Type": "AWS::EC2::SecurityGroupIngress",
+      "Properties": {
+        "GroupId": {
+          "Ref": "SGInstance"
+        },
+        "IpProtocol": "TCP",
+        "FromPort": "1130",
+        "ToPort": "1130",
+        "SourceSecurityGroupId": {
+          "Fn::GetAtt": [
+            "SGLB",
+            "GroupId"
+          ]
+        }
+      }
+    },
+    "SGIngressInstance1090": {
+      "Type": "AWS::EC2::SecurityGroupIngress",
+      "Properties": {
+        "GroupId": {
+          "Ref": "SGInstance"
+        },
+        "IpProtocol": "TCP",
+        "FromPort": "1090",
+        "ToPort": "1090",
+        "SourceSecurityGroupId": {
+          "Fn::GetAtt": [
+            "SGLB",
+            "GroupId"
+          ]
+        }
+      }
+    },
+    "SGIngressInstance1070": {
+      "Type": "AWS::EC2::SecurityGroupIngress",
+      "Properties": {
+        "GroupId": {
+          "Ref": "SGInstance"
+        },
+        "IpProtocol": "TCP",
+        "FromPort": "1070",
+        "ToPort": "1070",
+        "SourceSecurityGroupId": {
+          "Fn::GetAtt": [
+            "SGLB",
+            "GroupId"
+          ]
+        }
+      }
+    },
+    "SGIngressInstance1110": {
+      "Type": "AWS::EC2::SecurityGroupIngress",
+      "Properties": {
+        "GroupId": {
+          "Ref": "SGInstance"
+        },
+        "IpProtocol": "TCP",
+        "FromPort": "1110",
+        "ToPort": "1110",
+        "SourceSecurityGroupId": {
+          "Fn::GetAtt": [
+            "SGLB",
+            "GroupId"
+          ]
+        }
+      }
+    },
+    "SGIngressInstance1020": {
+      "Type": "AWS::EC2::SecurityGroupIngress",
+      "Properties": {
+        "GroupId": {
+          "Ref": "SGInstance"
+        },
+        "IpProtocol": "TCP",
+        "FromPort": "1020",
+        "ToPort": "1020",
+        "SourceSecurityGroupId": {
+          "Fn::GetAtt": [
+            "SGLB",
+            "GroupId"
+          ]
+        }
+      }
+    },
+    "SGIngressInstance1190": {
+      "Type": "AWS::EC2::SecurityGroupIngress",
+      "Properties": {
+        "GroupId": {
+          "Ref": "SGInstance"
+        },
+        "IpProtocol": "TCP",
+        "FromPort": "1190",
+        "ToPort": "1190",
+        "SourceSecurityGroupId": {
+          "Fn::GetAtt": [
+            "SGLB",
+            "GroupId"
+          ]
+        }
+      }
+    }
+  }
+}

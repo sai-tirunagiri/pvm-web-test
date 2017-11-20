@@ -1,0 +1,254 @@
+{
+  "ACM": {
+    "DotNetFrameworkVersion": "4.0",
+    "ManagedPipeline": "Integrated",
+    "StartApplicationPoolImediately": "#{start_app_pool}",
+    "Enable32BitApplication": "false",
+    "LoadUserProfile": "false",
+    "Identity": {
+      "Type": "ApplicationPoolIdentity",
+      "CustomAccount": {
+        "UserName": "",
+        "Password": ""
+      }
+    }
+  },
+  "CME_Silverlight": {
+    "DotNetFrameworkVersion": "4.0",
+    "ManagedPipeline": "Classic",
+    "StartApplicationPoolImediately": "#{start_app_pool}",
+    "Enable32BitApplication": "true",
+    "LoadUserProfile": "false",
+    "Identity": {
+      "Type": "NetworkService",
+      "CustomAccount": {
+        "UserName": "",
+        "Password": ""
+      }
+    }
+  },
+  "CRP": {
+    "DotNetFrameworkVersion": "4.0",
+    "ManagedPipeline": "Classic",
+    "StartApplicationPoolImediately": "#{start_app_pool}",
+    "Enable32BitApplication": "false",
+    "LoadUserProfile": "false",
+    "Identity": {
+      "Type": "NetworkService",
+      "CustomAccount": {
+        "UserName": "",
+        "Password": ""
+      }
+    }
+  },
+  "DefaultAppPool": {
+    "DotNetFrameworkVersion": "4.0",
+    "ManagedPipeline": "Integrated",
+    "StartApplicationPoolImediately": "#{start_app_pool}",
+    "Enable32BitApplication": "false",
+    "LoadUserProfile": "true",
+    "Identity": {
+      "Type": "ApplicationPoolIdentity",
+      "CustomAccount": {
+        "UserName": "",
+        "Password": ""
+      }
+    }
+  },
+  "FCB": {
+    "DotNetFrameworkVersion": "4.0",
+    "ManagedPipeline": "Classic",
+    "StartApplicationPoolImediately": "#{start_app_pool}",
+    "Enable32BitApplication": "false",
+    "LoadUserProfile": "false",
+    "Identity": {
+      "Type": "ApplicationPoolIdentity",
+      "CustomAccount": {
+        "UserName": "",
+        "Password": ""
+      }
+    }
+  },
+  "FCReports": {
+    "DotNetFrameworkVersion": "4.0",
+    "ManagedPipeline": "Classic",
+    "StartApplicationPoolImediately": "#{start_app_pool}",
+    "Enable32BitApplication": "false",
+    "LoadUserProfile": "false",
+    "Identity": {
+      "Type": "ApplicationPoolIdentity",
+      "CustomAccount": {
+        "UserName": "",
+        "Password": ""
+      }
+    }
+  },
+  "IFC": {
+    "DotNetFrameworkVersion": "4.0",
+    "ManagedPipeline": "Classic",
+    "StartApplicationPoolImediately": "#{start_app_pool}",
+    "Enable32BitApplication": "false",
+    "LoadUserProfile": "false",
+    "Identity": {
+      "Type": "NetworkService",
+      "CustomAccount": {
+        "UserName": "",
+        "Password": ""
+      }
+    }
+  },
+  "IIVT": {
+    "DotNetFrameworkVersion": "4.0",
+    "ManagedPipeline": "Integrated",
+    "StartApplicationPoolImediately": "#{start_app_pool}",
+    "Enable32BitApplication": "false",
+    "LoadUserProfile": "false",
+    "Identity": {
+      "Type": "ApplicationPoolIdentity",
+      "CustomAccount": {
+        "UserName": "",
+        "Password": ""
+      }
+    }
+  },
+  "IIVT2": {
+    "DotNetFrameworkVersion": "4.0",
+    "ManagedPipeline": "Integrated",
+    "StartApplicationPoolImediately": "#{start_app_pool}",
+    "Enable32BitApplication": "false",
+    "LoadUserProfile": "false",
+    "Identity": {
+      "Type": "ApplicationPoolIdentity",
+      "CustomAccount": {
+        "UserName": "",
+        "Password": ""
+      }
+    }
+  },
+  "IIVT2_Test": {
+    "DotNetFrameworkVersion": "4.0",
+    "ManagedPipeline": "Integrated",
+    "StartApplicationPoolImediately": "#{start_app_pool}",
+    "Enable32BitApplication": "false",
+    "LoadUserProfile": "false",
+    "Identity": {
+      "Type": "ApplicationPoolIdentity",
+      "CustomAccount": {
+        "UserName": "",
+        "Password": ""
+      }
+    }
+  },
+  "IRR": {
+    "DotNetFrameworkVersion": "4.0",
+    "ManagedPipeline": "Classic",
+    "StartApplicationPoolImediately": "#{start_app_pool}",
+    "Enable32BitApplication": "false",
+    "LoadUserProfile": "false",
+    "Identity": {
+      "Type": "ApplicationPoolIdentity",
+      "CustomAccount": {
+        "UserName": "",
+        "Password": ""
+      }
+    }
+  },
+  "ITL": {
+    "DotNetFrameworkVersion": "4.0",
+    "ManagedPipeline": "Classic",
+    "StartApplicationPoolImediately": "#{start_app_pool}",
+    "Enable32BitApplication": "false",
+    "LoadUserProfile": "false",
+    "Identity": {
+      "Type": "ApplicationPoolIdentity",
+      "CustomAccount": {
+        "UserName": "",
+        "Password": ""
+      }
+    }
+  },
+  "PCAPPortal": {
+    "DotNetFrameworkVersion": "4.0",
+    "ManagedPipeline": "Classic",
+    "StartApplicationPoolImediately": "#{start_app_pool}",
+    "Enable32BitApplication": "false",
+    "LoadUserProfile": "false",
+    "Identity": {
+      "Type": "ApplicationPoolIdentity",
+      "CustomAccount": {
+        "UserName": "",
+        "Password": ""
+      }
+    }
+  },
+  "PDI": {
+    "DotNetFrameworkVersion": "4.0",
+    "ManagedPipeline": "Integrated",
+    "StartApplicationPoolImediately": "#{start_app_pool}",
+    "Enable32BitApplication": "false",
+    "LoadUserProfile": "false",
+    "Identity": {
+      "Type": "ApplicationPoolIdentity",
+      "CustomAccount": {
+        "UserName": "",
+        "Password": ""
+      }
+    }
+  },
+  "PES": {
+    "DotNetFrameworkVersion": "4.0",
+    "ManagedPipeline": "Classic",
+    "StartApplicationPoolImediately": "#{start_app_pool}",
+    "Enable32BitApplication": "true",
+    "LoadUserProfile": "false",
+    "Identity": {
+      "Type": "ApplicationPoolIdentity",
+      "CustomAccount": {
+        "UserName": "",
+        "Password": ""
+      }
+    }
+  },
+  "RDMRequestUnlock": {
+    "DotNetFrameworkVersion": "4.0",
+    "ManagedPipeline": "Integrated",
+    "StartApplicationPoolImediately": "#{start_app_pool}",
+    "Enable32BitApplication": "false",
+    "LoadUserProfile": "false",
+    "Identity": {
+      "Type": "ApplicationPoolIdentity",
+      "CustomAccount": {
+        "UserName": "",
+        "Password": ""
+      }
+    }
+  },
+  "WWFL2": {
+    "DotNetFrameworkVersion": "4.0",
+    "ManagedPipeline": "Integrated",
+    "StartApplicationPoolImediately": "#{start_app_pool}",
+    "Enable32BitApplication": "false",
+    "LoadUserProfile": "false",
+    "Identity": {
+      "Type": "ApplicationPoolIdentity",
+      "CustomAccount": {
+        "UserName": "",
+        "Password": ""
+      }
+    }
+  },
+  "Reporting": {
+    "DotNetFrameworkVersion": "2.0",
+    "ManagedPipeline": "Integrated",
+    "StartApplicationPoolImediately": "#{start_app_pool}",
+    "Enable32BitApplication": "false",
+    "LoadUserProfile": "false",
+    "Identity": {
+      "Type": "ApplicationPoolIdentity",
+      "CustomAccount": {
+        "UserName": "",
+        "Password": ""
+      }
+    }
+  }
+}

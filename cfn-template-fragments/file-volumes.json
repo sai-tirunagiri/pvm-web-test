@@ -1,0 +1,20 @@
+{
+  "Resources": {
+    "LaunchConfiguration": {
+      "Properties": {
+        "BlockDeviceMappings": {
+          "$append": [
+            {
+              "Ebs": {
+                "VolumeType": "gp2",
+                "VolumeSize": "50",
+                "Encrypted": "true"
+              },
+              "DeviceName": "xvdf"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

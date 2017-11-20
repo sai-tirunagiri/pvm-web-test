@@ -1,0 +1,10 @@
+﻿{
+  "default": {
+    "Group": "IISTest",
+    "TemplateFile": "Templates\\1 - buildChef.V3.xml",
+    "EnvironmentName": "Build",
+    "Variables": {
+      "AutomaticPipelineSchedulingOn": "success"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "default": {
+    "environment": "default",
+    "name": "IISTest",
+    "tags": {
+      "Business Entity": "PUB",
+      "Owner": "CFT",
+      "App Team": "CFT",
+      "Server Type": "web",
+      "Expense Id": "AWS-CFIG-SEO-Direct"
+    },
+    "parameters": {
+      "InstanceType": "t2.micro"
+    }
+  },
+  "dev": {
+    "environment": "dev"
+  }
+}

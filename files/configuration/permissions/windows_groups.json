@@ -1,0 +1,33 @@
+{
+  "Administrators": {
+    "Members": [
+      "GROSVENOR\\SDadmin",
+      "GROSVENOR\\Private Markets Admins #{attributes['NonProdOrBlank']}",
+      "GROSVENOR\\Domain Admins",
+      "GROSVENOR\\PVMSYS_AT",
+      "GROSVENOR\\SYS_Admins"
+    ]
+  },
+  "Remote Desktop Users": {
+    "Members": [
+      "GROSVENOR\\SYS_Admins",
+      "GROSVENOR\\AWS_PVM_Servers_RDP_Prod_RO"
+    ]
+  },
+  "Users": {
+    "Members": [
+      "NT AUTHORITY\\INTERACTIVE",
+      "NT AUTHORITY\\Authenticated Users",
+      "GROSVENOR\\SDadmin",
+      "GROSVENOR\\Domain Users"
+    ]
+  },
+  "ConfigMgr Remote Control Users": {
+    "Members": [
+      "GROSVENOR\\Domain Admins",
+      "GROSVENOR\\Infrastructure Engineering",
+      "GROSVENOR\\Infrastructure Operations",
+      "GROSVENOR\\Infrastructure Service Desk"
+    ]
+  }
+}

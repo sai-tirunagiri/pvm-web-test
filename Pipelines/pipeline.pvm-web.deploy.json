@@ -1,0 +1,17 @@
+{
+  "default": {
+    "Group": "IISTest",
+    "TemplateFile": "Templates\\2 - deployAutoscalingTransientWindowsServerWithIISAppUsingCfnDeploy.v3.xml",
+    "EnvironmentName": "cfn-deploy-nonprod",
+    "Variables": {
+      "PrefixPipelineName": "cfn-deploy.",
+      "PackageArtifactLeafDirectory": "IISTest",
+      "AutomaticPipelineSchedulingOn": "success"
+    }
+  },
+  "prd": {
+    "Group": "PROD",
+    "EnvironmentName": "cfn-deploy-prod",
+    "AutomaticPipelineSchedulingOn": "success"
+  }
+}

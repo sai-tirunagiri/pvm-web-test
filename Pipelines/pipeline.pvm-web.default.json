@@ -1,0 +1,24 @@
+{
+  "default": {
+    "Pipelines": [
+      "pipeline.pvm-web.build.json",
+      "pipeline.pvm-web.deploy.json", 
+    ],
+    "GoConfigFilePath": "\\\\pvm-go-dev\\Go Server\\config\\cruise-config.xml",
+    "GroupTemplateFile": "Templates\\0 - pipelineGroup.xml",
+    "Variables": {
+      "ProjectName": "IISTest",
+      "ProjectBranch": "master",
+      "BuildPipelineName": "IISTest.Build.develop",     
+      "ProjectDeployPackageFolderName": "IISTest",
+      "GcmChefPipelineName": "gcm-chef.Build.develop"
+    }
+  },
+  "dev": {    
+    "Variables": {
+      "ProjectBranch": "master",
+      "BuildPipelineName": "IISTest.Build.develop",
+      "GcmChefPipelineName": "gcm-chef.Build.develop"
+    }
+  }
+}
